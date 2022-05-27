@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>lab-test</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lab-test.css">
+
+</head>
+
+<body>
+    <h1>Please fill the form below</h1>
+    <section id="container">
+        <form action="#" id="form">
+            <img src="Images\Lab-Test\lab-test.jpg">
+            <h3><B>1. Your Contact Details</B></h3>
+            <input type="text" id="" name="fullname" placeholder="Full Name" required>
+            <input type="number" id="" name="pid" placeholder="Patient id if exists" required><br>
+            <input type="number" id="" name="contactno" placeholder="Contact Number" minlength="1" maxlength="10"
+                required>
+            <input type="text" id="" name="email" placeholder="Email id" required><br>
+            <h3><b>2. Address</b></h3>
+            <input type="text" id="" name="houseno" placeholder="House No." required>
+            <input type="text" id="" name="street" placeholder="Street" required><br>
+            <input type="text" id="" name="area" placeholder="Area" required><br>
+            <h4><b>District</b></h4>
+            <select name="district" id="district" required>
+                <option>choose</option>
+                <option value="ADILABAD">ADILABAD</option>
+                <option value="BHADRADRI KOTHAGUDEM">BHADRADRI KOTHAGUDEM</option>
+                <option value="HANUMAKONDA">HANUMAKONDA</option>
+                <option value="HYDERABAD">HYDERABAD</option>
+                <option value="JAGTIAL">JAGTIAL</option>
+                <option value="JANGOAN">JANGOAN</option>
+                <option value="JAYASHANKAR BHOOPALPALLY">JAYASHANKAR BHOOPALPALLY</option>
+                <option value="JOGULAMBA GADWAL">JOGULAMBA GADWAL</option>
+                <option value="KAMAREDDY">KAMAREDDY</option>
+                <option value="KARIMNAGAR">KARIMNAGAR</option>
+                <option value="KHAMMAM">KHAMMAM</option>
+                <option value="KOMARAM BHEEM ASIFABAD">KOMARAM BHEEM ASIFABAD</option>
+                <option value="MAHABUBABAD">MAHABUBABAD</option>
+                <option value="MAHABUBNAGAR">MAHABUBNAGAR</option>
+                <option value="MANCHERIAL">MANCHERIAL</option>
+                <option value="MEDAK">MEDAK</option>
+                <option value="MEDCHAL-MALKAJGIRI">MEDCHAL-MALKAJGIRI</option>
+                <option value="MULUG">MULUG</option>
+                <option value="NAGARKURNOOL">NAGARKURNOOL</option>
+                <option value="NALGONDA">NALGONDA</option>
+                <option value="NARAYANPET">NARAYANPET</option>
+                <option value="NIRMAL">NIRMAL</option>
+                <option value="NIZAMABAD">NIZAMABAD</option>
+                <option value="PEDDAPALLI">PEDDAPALLI</option>
+                <option value="RAJANNA SIRCILLA">RAJANNA SIRCILLA</option>
+                <option value="RANGAREDDY">RANGAREDDY</option>
+                <option value="SANGAREDDY">SANGAREDDY</option>
+                <option value="SIDDIPET">SIDDIPET</option>
+                <option value="SURYAPET">SURYAPET</option>
+                <option value="VIKARABAD">VIKARABAD</option>
+                <option value="WANAPARTHY">WANAPARTHY</option>
+                <option value="WARANGAL">WARANGAL</option>
+                <option value="YADADRI BHUVANAGIRI">YADADRI BHUVANAGIRI</option>
+            </select><br>
+
+            <h3><b>3. Choose The test Type.</b></h3>
+            <p>(Check atleast one box without fail)</p>
+            <input type="checkbox" id="c1" name="cbc" value="cbc">
+            <label for="cbc">CBC</label><br>
+            <input type="checkbox" id="c2" name="complete_urine" value="complete_urine">
+            <label for="complete_urine">Complete Urine</label><br>
+            <input type="checkbox" id="c3" name="lipidp" value="lipid_profile">
+            <label for="lipidp">Lipid Profile</label><br>
+            <input type="checkbox" id="c4" name="tsh" value="tsh">
+            <label for="tsh">Thyroid Simulating Hormone(TSH)</label><br>
+            <input type="checkbox" id="c5" name="glucose" value="glucosetest">
+            <label for="glucose">Glucose Test</label><br>
+
+            <h3><b>4. Do you want a hard copy of the report also?</b></h3>
+            <input type="radio" id="c6" name="report" value="yes" required>
+            <label for="report">Yes</label>
+            <input type="radio" id="c7" name="report" value="no">
+            <label for="report">No</label><br>
+
+            <h3><b>5. Select Your Comfortable Date and Time</b></h3>
+            <label for="date">Select date:</label>
+            <input type="date" id="date" name="date" required><br>
+            <label for="time">Select time:</label>
+            <input type="time" id="time" name="time" required><br>
+
+           
+
+        </form>
+        <button id="submit" type="submit" form="form">Submit</button>
+        <button id="reset" type="reset" form="form">reset</button>
+    </section>
+
+
+</body>
+
+</html>
